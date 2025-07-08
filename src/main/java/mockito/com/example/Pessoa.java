@@ -21,5 +21,10 @@ public class Pessoa {
     public String getDocumento() {return documento;}
     public LocalDate getNascimento() {return nascimento;}
     public String getEndereco(){return endereco;}
+
+    public void adicionarDadosDeEndereco(DadosLocalizacao dadosLocalizacao) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'adicionarDadosDeEndereco'");
+    }
     
 }
